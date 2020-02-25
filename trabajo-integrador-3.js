@@ -1,3 +1,50 @@
+// Flor, excelente trabajo. Las funciones en general estan perfectas, hacen su trabajo y el codigo es claro y prolijo. 
+// Obviamente lo que falta es el codigo que nos haga funcionar el menu de operaciones. No deberia ser muy complejo. 
+// Algo asi al final de todo, por ejemplo:
+
+do {
+//   menuDeOperaciones();
+
+//   switch (accion) {
+//     case 'AGREGAR':
+//       agregarProducto();
+//       break;
+
+//     case 'MOSTRAR':
+//       alert(mostrarDetalle(carritoDeCompras));
+//       break;
+
+//     case 'ELIMINAR':
+//       eliminarProducto(carritoDeCompras);
+//       break;
+
+//     case 'VACIAR':
+//       vaciarCarrito(carritoDeCompras);
+//       break;
+
+//     case 'CANCELAR':
+//       cancelarCompra();
+
+//       break;
+
+//     case 'CONFIRMAR':
+//       confirmarCompra(carritoDeCompras);
+//       break;
+
+//     default:
+//       break;
+//   }
+// } while (accion !== 'SALIR');
+    
+// Poniendo todo en marcha vas a ver que hay algunas cosas que todavia no funcionan a la perfeccion. Agregar un producto 
+    // trae algunas dificultades, se repiten algunos alert que no deberian. Si el carrito esta vacio, no podemos 
+    // agregar un nuevo producto. 
+    // Pero me parecen detalles: yo considero este trabajo aprobado ya que demuestra la comprension de los temas que 
+    // buscabamos practicar. 
+    // Si tenes ganas de que continuemos juntas este codigo para que quede funcionando, hagamos call!
+    
+
+
 let productosDisponibles = [
     [1, "Notebook Lenobo S400", 100, true],
     [2, "Celular Notorola G5", 135, false],
